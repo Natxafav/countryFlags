@@ -1,0 +1,64 @@
+.App {
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+
+}
+
+form {
+  width: 45vw;
+  margin-bottom: 1rem;
+
+}
+
+.gestorForm,
+.gestorMens,
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.gestorForm,
+.gestorMens {
+  width: 45vw;
+  border: 15px ridge;
+  padding-bottom: 22px;
+}
+
+
+.usuarios div {
+  width: 45vw;
+  justify-content: center;
+}
+
+.texto {
+  width: 35vw;
+  margin-bottom: 0.2rem;
+  font-size: 1.2rem;
+  border-radius: 0.2rem;
+}
+
+button.publicar:hover {
+  background-color: rgb(204, 201, 241);
+  cursor: pointer;
+}
+
+button.enviar:hover {
+  background-color: lightcyan;
+  cursor: pointer;
+}
+
+button.eliminar:hover {
+  background: linear-gradient(150deg, lightcyan, rgb(204, 201, 241));
+  cursor: pointer;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+

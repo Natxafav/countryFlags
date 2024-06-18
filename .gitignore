@@ -1,0 +1,46 @@
+# Node modules
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Service files
+coverage/
+*.log
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Miscellaneous
+*.sublime-project
+*.sublime-workspace
+
+# Static analysis cache
+.eslintcache
+.stylelintcache
+
+# Testing
+coverage/
